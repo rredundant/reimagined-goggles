@@ -1,0 +1,18 @@
+Cleanup and Analysis:
+
+I initally found two CSV files on Kaggle that contained some superhero information--really just basic demographic stuff.
+
+I was  then able to also find a free API from ComicVine that was in JSON format.
+
+In order to make the CSVs useful, I had to make new columns in the first dataframes to make them searchable through the API.
+
+The API supposedly had filters, but I noticed pretty soon that none of them were working. This oversight required that I do quite a bit of
+filtering back on the pandas side in order to make the information useable.
+
+It seemed pretty clear to use a relational database, thus MySQL.
+
+I uploaded my final dataframe with the combined data as well as my two starter dataframes. I chose these because, while the filtering did 
+actually produce the kind of information I was hoping to, there was quite a bit lost from beginning to end. Whereas I started with nearly 
+24,000 rows, I ended with 70. Through doing this project, I was left with an overwhelming urge to fix the information on both websites
+where I got data from. Also, I feel like with my prior knowledge, I should have realized that comic book information was way too 
+complicated to be easily completed.
